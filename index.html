@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Study with Friends</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --accent: #2f7d6d;
+      --text: #1f2933;
+      --muted: #65727f;
+      --border: #d9e2ec;
+      --bg: #f7faf9;
+      --panel: #ffffff;
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.75;
+      color: var(--text);
+      background: var(--bg);
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 20px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 32px;
+      line-height: 1.25;
+    }
+    p {
+      margin: 0 0 16px;
+    }
+    .lead {
+      color: var(--muted);
+      font-size: 17px;
+    }
+    nav {
+      display: grid;
+      gap: 10px;
+      margin-top: 28px;
+    }
+    a {
+      color: var(--accent);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .link-row {
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #fbfdfc;
+    }
+    footer {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="panel">
+      <h1>Study with Friends</h1>
+      <p class="lead">Study with Friendsは、勉強時間の計測、記録、フレンドとの勉強状況共有をサポートする学習タイマーアプリです。</p>
+      <p>このページでは、アプリの利用規約、プライバシーポリシー、サポート情報を確認できます。</p>
+
+      <nav aria-label="サポートページ">
+        <a class="link-row" href="./privacy.html">プライバシーポリシー</a>
+        <a class="link-row" href="./terms.html">利用規約</a>
+        <a class="link-row" href="./support.html">お問い合わせ</a>
+      </nav>
+    </section>
+
+    <footer>
+      <p>運営者: Study with Friends</p>
+      <p>お問い合わせ: <a href="mailto:studywithfriends.app@gmail.com">studywithfriends.app@gmail.com</a></p>
+    </footer>
+  </main>
+</body>
+</html>
